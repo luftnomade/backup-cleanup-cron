@@ -1,0 +1,28 @@
+{
+  "name": "backup-cleanup-cron",
+  "version": "1.0.0",
+  "description": "cleanup old backup files",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/lab -l -c",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luftnomade/backup-cleanup-cron.git"
+  },
+  "keywords": ["backup", "cleanup", "cron"],
+  "author": "Christian Wolf",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "^5.1.2",
+    "lab": "^15.2.0",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.1.6"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "pino": "^4.10.3",
+    "rc": "^1.2.4"
+  }
+}
